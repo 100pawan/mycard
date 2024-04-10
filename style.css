@@ -1,0 +1,114 @@
+body{
+    background-color: #0D1A2D;
+    font-family: "Outfit", sans-serif;
+    /* width: 100%; */
+}
+
+
+.card{
+    position: relative;
+    margin: auto;
+    inset: 0;
+    background-color: #15273E;
+    width: 100%;
+    max-width: 297px;
+    height: 497px;
+    overflow: hidden;
+    
+    border-radius: 12px;
+    box-shadow: 1px 0px 20px 16px #0000003d;
+}
+img{
+    width: 100%;
+    /* position: absolute; */
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+h2{
+    color:  hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin-left: 17px;
+    position: relative;
+    top: -4%;
+}
+p{
+    color: hsl(215, 51%, 70%);
+    /* color: hsl(178, 100%, 50%); */
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 17px;
+    position: relative;
+    top: -5%;
+}
+span{
+    color: hsl(178, 100%, 50%) ;
+    margin-left: 17px;
+    position: relative;
+    top: -7%;
+    
+   
+}
+.eth{
+    color:hsl(178, 100%, 50%);
+    font-weight: 500;
+    position: relative;
+    margin: 0;
+    top: -7%;
+    right: -6%;
+    position: relative;
+    bottom: -2px;
+}
+.clock{
+    margin: auto;
+    right: -25%;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 16px;
+    position: absolute;
+    top: 14%;
+    left: 52%;
+}
+
+.line{
+    
+    position: absolute;
+    top: 85%;
+    right: 26px;
+    left: 20px;  
+}
+.icon{
+    /* height: 10px; */
+    display: inline-block;
+    width: 67px;
+    position: relative;
+    top: -7%;
+    left: -7%;
+    /* background-color: white; */
+    
+
+}
+.creator{
+    color:#8bacda ;
+    font-size: 14px;
+    font-weight: 300;
+    position: relative;
+    top: -12%;
+    left: -18%;
+}
+.name{
+    color: hsl(0, 0%, 100%) ;
+    position: relative;
+    top: -12%;
+    left: -22%;
+}
+.time{
+    position: relative;
+    color:hsl(215, 51%, 70%) ;
+    left: 20%;
+    font-weight: 200;
+    font-size: 16px;
+}
+.k{
+    color: blue;
+}
